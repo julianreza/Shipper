@@ -1,0 +1,18 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
+
+.slick-slide {
+  margin-right: 20px;
+  width: calc(100% + 30px);
+}
